@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-image: -o-linear-gradient(315deg, #8052ec, #d161ff);
+    background-image: linear-gradient(135deg, #8052ec, #d161ff);
+}
+
+.wrapper {
+    width: 31.25em;
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+
+.clock {
+    height: 8em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+.clock div {
+    position: relative;
+    background-color: #ffffff;
+    height: 100%;
+    width: 3.2em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 2.5em;
+    color: #150c41;
+    border-radius: 0.4em;
+    -webkit-box-shadow: 0 1em 2em rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1em 2em rgba(0, 0, 0, 0.3);
+    letter-spacing: 0.05em;
+}
+
+.clock span {
+    font-weight: 800;
+    font-size: 2.5em;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 500px) {
+    .wrapper {
+        font-size: 0.7em;
+    }
+}
