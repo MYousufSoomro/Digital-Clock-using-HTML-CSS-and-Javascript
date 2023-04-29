@@ -2,5 +2,5 @@
 Digital Clock using HTML, CSS and Javascript
 
 
-# VIEW LIVE LIVE
+# VIEW LIVE
 https://myousufsoomro.github.io/Digital-Clock-using-HTML-CSS-and-Javascript/
